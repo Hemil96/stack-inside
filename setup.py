@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='Stack Inside',
+    name='Tech Inside',
     version='0.1',
     py_modules=['sicli'],
     install_requires=[
@@ -12,6 +12,6 @@ setup(
     ],
     entry_points='''
         [console_scripts]
-        stackinside=sicli:cli
+        techinside=sicli:cli
     ''',
 )

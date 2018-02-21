@@ -15,7 +15,7 @@ data = {
         }
 
 
-def stackinside(company):
+def techinside(company):
     try:
         html_doc = requests.get("https://stackshare.io/"+company).text
         soup = BeautifulSoup(html_doc, 'html.parser')

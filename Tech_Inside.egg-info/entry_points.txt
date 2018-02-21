@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        techinside=sicli:cli
+    

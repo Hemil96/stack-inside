@@ -1,0 +1,7 @@
+sicli.py
+Tech_Inside.egg-info/PKG-INFO
+Tech_Inside.egg-info/SOURCES.txt
+Tech_Inside.egg-info/dependency_links.txt
+Tech_Inside.egg-info/entry_points.txt
+Tech_Inside.egg-info/requires.txt
+Tech_Inside.egg-info/top_level.txt

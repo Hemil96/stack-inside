@@ -6,7 +6,7 @@ import json
 @click.option('--name', prompt='Company name:',
               help='The person to greet.')
 def cli(name):
-    json_data = api.stackinside(name)
+    json_data = api.techinside(name)
     if json_data != "n/a":
         dict_data = json.loads(json_data)
 
