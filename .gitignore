@@ -1,3 +1,4 @@
-*.py
+*.pyc
 venv/
 Stack_Inside.egg-info/
+Tech_Inside.egg-info/
