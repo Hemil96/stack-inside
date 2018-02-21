@@ -1,7 +1,0 @@
-sicli.py
-Stack_Inside.egg-info/PKG-INFO
-Stack_Inside.egg-info/SOURCES.txt
-Stack_Inside.egg-info/dependency_links.txt
-Stack_Inside.egg-info/entry_points.txt
-Stack_Inside.egg-info/requires.txt
-Stack_Inside.egg-info/top_level.txt
