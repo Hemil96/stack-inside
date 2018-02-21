@@ -25,7 +25,7 @@ git clone https://github.com/Hemil96/tech-inside-cli-tool.git
 
 Step 5 - Change directory to cloned one
 ```
-cd blockshell
+cd tech-inside-cli-tool
 ```
 
 Step 6 - Install Tech-inside
