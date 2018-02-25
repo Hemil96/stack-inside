@@ -33,7 +33,7 @@ Step 6 - Install Tech-inside
 pip install --editable .
 ```
 
-Step 7 - Try "stackinsdie" command and test installation!
+Step 7 - Try "techinside" command and test installation!
 ```
 techinside
 ```
