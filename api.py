@@ -31,26 +31,26 @@ def techinside(company):
             elif "Business Tools" in div.text:
                 b_tools = div
 
-        for a in app_data.find_all('a'):
-            try:
+        try:
+            for a in app_data.find_all('a'):
                 list_app_data.append(a['data-hint'])
-            except:
-                pass
-        for a in utilities.find_all('a'):
-            try:
+        except:
+            pass
+        try:
+            for a in utilities.find_all('a'):
                 list_utilities.append(a['data-hint'])
-            except:
-                pass
-        for a in devops.find_all('a'):
-            try:
+        except:
+            pass     
+        try:
+            for a in devops.find_all('a'):
                 list_devops.append(a['data-hint'])
-            except:
-                pass
-        for a in b_tools.find_all('a'):
-            try:
+        except:
+            pass     
+        try:
+            for a in b_tools.find_all('a'):
                 list_b_tools.append(a['data-hint'])
-            except:
-                pass
+        except:
+            pass
         return json.dumps(data)
     except:
         return 'n/a'
