@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
-import requests
-import json
+import requests,json
 
 list_app_data = []
 list_utilities = []
@@ -59,5 +58,3 @@ def techinside(company):
             return ("N/A")
     except:
         return ("N/A")
-
-techinside("apple")
